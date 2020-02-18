@@ -4,12 +4,6 @@ import (
 	"time"
 )
 
-func getGoldenNumber(year int) int {
-	// To determine the golden number, divide the year by 19 and use
-	// the remainder + 1. We use 19 because that is the length of a metonic cycle
-	return (year % 19) + 1
-}
-
 // GetEasterDateForYear returns the Easter date using the Gauss algorithm
 func GetEasterDateForYear(year int) time.Time {
 	a := year % 19
