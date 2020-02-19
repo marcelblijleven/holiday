@@ -1,0 +1,57 @@
+[
+	{
+		"name": "Good Friday",
+		"date": "2025-04-18T00:00:00Z",
+		"official": false
+	},
+	{
+		"name": "Easter",
+		"date": "2025-04-20T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "Easter Monday",
+		"date": "2025-04-21T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "Ascension Day",
+		"date": "2025-05-29T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "Pentecost",
+		"date": "2025-06-08T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "Pentecost Monday",
+		"date": "2025-06-09T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "New Year",
+		"date": "2025-01-01T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "Kingsday",
+		"date": "2025-04-27T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "Liberation Day",
+		"date": "2025-05-05T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "Christmas",
+		"date": "2025-12-25T00:00:00Z",
+		"official": true
+	},
+	{
+		"name": "Boxing Day",
+		"date": "2025-12-26T00:00:00Z",
+		"official": true
+	}
+]
