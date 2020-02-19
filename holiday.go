@@ -9,9 +9,9 @@ import (
 )
 
 type holiday struct {
-	Name    string    `json:"name"`
-	Date    time.Time `json:"date"`
-	Offical bool      `json:"official"`
+	Name     string    `json:"name"`
+	Date     time.Time `json:"date"`
+	Official bool      `json:"official"`
 }
 
 func newHoliday(name string, date time.Time, official bool) holiday {
@@ -54,7 +54,7 @@ func GetHolidays(year int) ([]byte, error) {
 
 	if (year-2020)%5 == 0 {
 		// Once every five years, you get a day off on Liberation Day
-		liberationDay.Offical = true
+		liberationDay.Official = true
 	}
 
 	christmas := newHoliday("Christmas", time.Date(year, 12, 25, 0, 0, 0, 0, time.UTC), true)
