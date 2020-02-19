@@ -2,8 +2,8 @@ name: Go
 on: [push]
 jobs:
 
-  build:
-    name: Build
+  test:
+    name: Test
     runs-on: ubuntu-latest
     steps:
 
@@ -25,4 +25,4 @@ jobs:
         fi
 
     - name: Run tests
-      run: go test ./...
+      run: go test $(go list -m)/...
